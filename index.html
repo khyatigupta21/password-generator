@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="assets/js/pwd-generator.js"></script>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <form class="main-container">
+      <div class="container">
+        <label for="characters">Enter the number of characters</label>
+        <input type="text" id="geneChar" />
+      </div>
+      <div class="container">
+        <label for="numbers">Enter the number of numbers</label>
+        <input type="text" id="geneNum" />
+      </div>
+      <div class="container">
+        <label for="symbols">Enter the number of symbols</label>
+        <input type="text" id="geneSym" />
+      </div>
+      <div>
+        <p id="result" style="color: black"></p>
+      </div>
+      <div class="container">
+        <button onclick="randomPassword()">Generate Password</button>
+      </div>
+    </form>
+  </body>
+</html>
